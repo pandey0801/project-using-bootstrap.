@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(184, 247, 247);
+    
+    /* padding-top: 10px; */
+    /* padding-left: 30px; */
+    /* background-color: rgb(135, 243, 243); */
+}
+
+#form{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#amount{
+    margin-bottom: 20px;
+}
+
+/* #valid-feedback{ */
+    /* margin-bottom: 10px; */
+/* } */
+
+#des{
+    margin-bottom: 20px;
+}
+
+#cat{
+    margin-bottom: 20px;
+}
+
+#btm{
+    margin-bottom: 20px;
+    background-color: rgb(121, 230, 107);
+}
+
+
+

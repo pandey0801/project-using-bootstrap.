@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+     crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+    <body style="margin: 0" id="body">
+        <form id="form" class="was-validated">
+        
+          <div class="mb-3 mt-3">
+          <label for="amount" class="form-label">Choose Expense Amount:</label>
+          <input type="text" name="amount" id="amount"  class="form-control" placeholder="Enter amount" required/>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+           
+
+          <div class="mb-3">
+          <label for="des" class="form-label" >Choose Description:</label>
+          <input type="text" name="des" id="des" class="form-control" placeholder="Enter description" required/>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+
+
+          <label for="cat" class="form-label" >Choose a category:</label>
+          <select  id="cat" name="cat" class="form-control">
+            <option value="fule">fuel</option>
+            <option value="food">food</option>
+            <option value="electricity">electricity</option>
+            <option value="movies">movies</option>
+          </select>
+          
+
+          <button type="submit" id="btm">Add expense</button>
+        </form>
+
+        <script src="project.js"></script>
+      </body>
+      <!-- <script src="editbtm.js"></script> -->
+
+</html>
